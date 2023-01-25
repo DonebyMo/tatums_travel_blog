@@ -1,0 +1,42 @@
+* {
+  font-family: Arial;
+}
+
+/*changes font family*/
+h1 {
+  font-family: "Comfortaa", cursive;
+}
+
+/*changes font family*/
+h3 {
+  font-family: "Comfortaa", cursive;
+}
+
+/*adds a font color*/
+body {
+  background-color: #ffe8d4;
+}
+
+/*adds a linear graidient brackground*/
+article {
+  background-image: linear-gradient(to bottom right, #8cbedd, #7392b7);
+}
+
+/*adds a background image and changes ther color of the text to creamish*/
+header {
+  background-image: url(https://images.unsplash.com/photo-1658932887275-79d1d0574776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
+  background-size: cover;
+  color: #ffe8d4;
+}
+
+/*link color purple*/
+a {
+  color: #6320ee;
+  text-decoration: none;
+}
+
+/* turns the color to red on hover*/
+a:hover {
+  color: #9b1d20;
+  text-decoration: underline;
+}
